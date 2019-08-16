@@ -1,0 +1,161 @@
+/*=============================================================
+CONTACTS PAGE
+=============================================================*/
+
+.box-contacts {
+	padding: 42px 0 0;
+	&__title {
+		font-size: 28px;
+	}
+	&__desc {
+		padding-top: 20px;
+		font-size: 15px;
+	}
+}
+
+.contacts-list {
+	display: flex;
+	margin: 0 -20px;
+	&-wrap {
+		padding: 26px 0;
+	}
+	&__item {
+		width: 50%;
+		padding: 0 20px;
+	}
+	&__wrap {
+		padding: 29px 30px;
+		border: 1px solid #EEEFF0;
+		height: 100%;
+	}
+	&__title {
+		font-weight: bold;
+		font-size: 22px;
+		line-height: normal;
+		color: #1E1E1E;
+	}
+	&__desc {
+		padding: 12px 0 22px;
+		font-weight: normal;
+	}
+	.social-list__item {
+    	margin-right: 13px; 
+	}
+	.social-list__link {
+		color: $link-color;
+	}
+	.call-us {
+		margin-top: 14px;
+		span {
+			display: inline-block;
+			font-size: 15px;
+			line-height: normal;
+			color: rgba(30, 30, 30, .8);
+		}
+	}
+	.call-us__link {
+		color: #1E1E1E;
+		font-weight: 900;
+		margin-right: 4px;
+		&:hover {
+			color: #3B589E;
+		}
+	}
+}
+
+.box-question_contacts {
+	padding: 0;
+	.box-tab-cont {
+		padding: 70px 115px;
+	}
+}
+
+.contacts-map {
+	display: block;
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 1280px) {
+	.box-question_contacts .box-tab-cont {
+		padding: 80px 40px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.box-question_contacts .box-tab-cont {
+		padding: 60px 25px;
+	}
+	.contacts-list {
+		margin: 0 -10px;
+	}
+	.contacts-list__item {
+		padding: 0 10px;
+	}
+	.contacts-list__title {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.box-question_contacts .box-tab-cont {
+		width: 100%;
+		padding: 40px 15px;
+	}
+	.box-question_contacts .box-question__wrap {
+		flex-wrap: wrap;
+	}
+	.box-question_contacts .box-question__map {
+		position: relative;
+		order: 1;
+		width: 100%;
+		height: 450px;
+	}
+	.contacts-list {
+		flex-wrap: wrap;
+	}
+	.contacts-list__item {
+		padding: 0 10px;
+		width: 100%;
+		margin-bottom: 20px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.contacts-list__title {
+		font-size: 18px;
+	}
+	.box-contacts__title {
+		font-size: 24px;
+	}
+	.contacts-list__wrap {
+    	padding: 20px 15px;
+	}
+	.contacts-list .social-list {
+		justify-content: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
