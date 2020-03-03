@@ -1,11 +1,11 @@
 <?php
 
-global $themeAR;
- 
-
-$themeAR->create_post_type("Феи", "fei", true, array( 'title',   'editor',  'author', "page-attributes" ));
-$themeAR->create_taxonomy("Категория", "catfei", ["fei"], false);
-$themeAR->create_taxonomy("Метки", "tagfei", ["fei"], false);
-$themeAR->create_post_type("FAQ", "faq", false, array( 'title',  'editor', 'author' ));
-$themeAR->create_post_type("Отзывы", "review", false, array( 'title',  'editor', 'author' ));
- 
+//global $themeAR;
+//
+//$themeAR->create_post_type( __("Brands", 'septiki'), 'brands', true, array( 'title', 'editor', 'thumbnail' ) );
+//$themeAR->create_post_type( __("Reviews", 'septiki'), "reviews", true, array( 'title', 'editor' ) );
+//$themeAR->create_post_type( __("FAQ", 'septiki'), "faq", true, array( 'title', 'editor' ) );
+//
+//$themeAR->create_taxonomy( __("Categories"), "brand", [ "brands" ], false );
+//
+//$themeAR->acf_add_page('Настройки темы','Настройки темы');

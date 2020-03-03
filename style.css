@@ -1,13 +1,13 @@
 /*
-Theme Name: Fei
-Theme URI: https://fei.ar-tema.ru/
-Author: the Kolya Koshkar
-Author URI: https://masterwp.ru/
-Description: Тема для Фей
-Requires at least: WordPress 5.2
+Theme Name: Enimo
+Author: the SlicePlanet team
+Author URI: mailto:megabrilik@gmail.com
+Description: Enimo created 2020 year.
+Requires at least: WordPress 5.2.3
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: fei
+Text Domain: enimo
 Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
 */
+@import "assets/css/style.css";
